@@ -1,0 +1,2 @@
+Book{id=1, name='Капитанская дочка', creationDate='1836 '}
+Book{id=2, name='Привет', creationDate='2021'}

@@ -1,0 +1,2 @@
+Author{id=2, firstName='Александр', lastName='Пушкин', middleName='Сергеевич'}
+Author{id=3, firstName='Полина', lastName='Беликова', middleName='Юрьевна'}

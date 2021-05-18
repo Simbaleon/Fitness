@@ -1,0 +1,220 @@
+10008898 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m19s507ms991µs200ns).
+581  [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Starting Pr24Application using Java 15.0.2 on DESKTOP-Q4C62NP with PID 11992 (C:\Users\simba\Desktop\Curse\pr24\target\classes started by simba in C:\Users\simba\Desktop\Curse\pr24)
+583  [restartedMain] INFO  com.example.pr24.Pr24Application
+                – No active profile set, falling back to default profiles: default
+621  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+621  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1450 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1505 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2044 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2049 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2049 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2049 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+2113 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2113 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1491 ms
+2319 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2351 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2422 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2500 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2619 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2632 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3315 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3322 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3863 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3310551b, org.springframework.security.web.context.SecurityContextPersistenceFilter@67a76bfa, org.springframework.security.web.header.HeaderWriterFilter@8ed2a10, org.springframework.security.web.csrf.CsrfFilter@38475d13, org.springframework.security.web.authentication.logout.LogoutFilter@23837727, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bd43a5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32bd4c9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8b9c670, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6897603, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ccdd30a, org.springframework.security.web.session.SessionManagementFilter@12f842db, org.springframework.security.web.access.ExceptionTranslationFilter@34870d9c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10f8d871]
+3962 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+4015 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+4310 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+4314 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 2 endpoint(s) beneath base path '/actuator'
+4350 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+4363 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+4379 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+4386 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Started Pr24Application in 4.072 seconds (JVM running for 4.845)
+4930 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4931 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+4932 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+4948 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.a.mail.MailHealthIndicator
+                – Mail health check failed
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.actuate.mail.MailHealthIndicator.doHealthCheck(MailHealthIndicator.java:42)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/java.net.Socket.connect(Socket.java:597)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 47 common frames omitted
+535  [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Starting Pr24Application using Java 15.0.2 on DESKTOP-Q4C62NP with PID 18860 (C:\Users\simba\Desktop\Curse\pr24\target\classes started by simba in C:\Users\simba\Desktop\Curse\pr24)
+537  [restartedMain] INFO  com.example.pr24.Pr24Application
+                – No active profile set, falling back to default profiles: default
+573  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+573  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1330 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1373 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+1828 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1833 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1834 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1834 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+1903 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1903 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1330 ms
+2104 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2134 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+2205 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2274 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2396 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2409 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3083 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3089 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3650 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a94d120, org.springframework.security.web.context.SecurityContextPersistenceFilter@11c1a122, org.springframework.security.web.header.HeaderWriterFilter@45ceaa9b, org.springframework.security.web.csrf.CsrfFilter@1d4bb439, org.springframework.security.web.authentication.logout.LogoutFilter@148b527e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8396789, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fae6d82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7411138d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3533648a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ab7867c, org.springframework.security.web.session.SessionManagementFilter@182c258f, org.springframework.security.web.access.ExceptionTranslationFilter@7888fc44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@709bc72c]
+3745 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+3798 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+4121 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+4124 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 2 endpoint(s) beneath base path '/actuator'
+4159 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+4173 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+4188 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+4194 [restartedMain] INFO  com.example.pr24.Pr24Application
+                – Started Pr24Application in 3.908 seconds (JVM running for 4.725)
+4382 [RMI TCP Connection(2)-192.168.42.188] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4382 [RMI TCP Connection(2)-192.168.42.188] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+4383 [RMI TCP Connection(2)-192.168.42.188] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+15908 [http-nio-8080-exec-6] INFO  c.e.pr24.services.AuthorService
+                – Find all authors
+15913 [http-nio-8080-exec-6] INFO  com.example.pr24.aspects.TimeAspect
+                – List com.example.pr24.services.AuthorService.getAll() worked for 7ms
+17865 [http-nio-8080-exec-7] INFO  c.e.pr24.services.AuthorService
+                – Save author with id: 0
+17879 [http-nio-8080-exec-7] INFO  com.example.pr24.aspects.TimeAspect
+                – void com.example.pr24.services.AuthorService.save(AuthorDTO) worked for 30ms
+18327 [http-nio-8080-exec-8] INFO  c.e.pr24.services.AuthorService
+                – Find all authors
+18329 [http-nio-8080-exec-8] INFO  com.example.pr24.aspects.TimeAspect
+                – List com.example.pr24.services.AuthorService.getAll() worked for 2ms
+18853 [http-nio-8080-exec-9] INFO  c.e.pr24.services.AuthorService
+                – Delete author by id: 4
+18857 [http-nio-8080-exec-9] INFO  com.example.pr24.aspects.TimeAspect
+                – void com.example.pr24.services.AuthorService.delete(int) worked for 4ms
+18877 [http-nio-8080-exec-10] INFO  c.e.pr24.services.AuthorService
+                – Find all authors
+18879 [http-nio-8080-exec-10] INFO  com.example.pr24.aspects.TimeAspect
+                – List com.example.pr24.services.AuthorService.getAll() worked for 2ms
+20124 [http-nio-8080-exec-1] INFO  c.e.pr24.services.AuthorService
+                – Filter authors by bookName=, firstName=, middleName=, lastName=
+20145 [http-nio-8080-exec-1] INFO  com.example.pr24.aspects.TimeAspect
+                – List com.example.pr24.services.AuthorService.filterAuthors(String,String,String,String) worked for 21ms
+21527 [http-nio-8080-exec-3] INFO  c.example.pr24.services.BookService
+                – Find all books
+21529 [http-nio-8080-exec-3] INFO  com.example.pr24.aspects.TimeAspect
+                – List com.example.pr24.services.BookService.getAll() worked for 6ms
+62084510 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h13m50s346ms927µs100ns).
